@@ -1,7 +1,8 @@
 var katzDeli = [];
 
-function takeANumber(katzDeli, name) {
-  katzDeli.push(name);
+function takeANumber(katzDeli, number) {
+  katzDeli.push(number);
+  var x = 1;
   
   /*position = katzDeli.indexOf(name) + 1
   
